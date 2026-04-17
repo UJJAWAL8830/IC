@@ -1,0 +1,27 @@
+{
+  "name": "simran",
+  "version": "1.0.0",
+  "description": "Simran Skincare Redesign - Neo-brutalism Style",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "postcss": "^8.5.10",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.1",
+    "tailwindcss": "^4.2.2",
+    "vite": "^6.4.2"
+  }
+}
