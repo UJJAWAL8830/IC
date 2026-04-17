@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary and OS files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Legacy and duplicate files (if not needed)
+men1_files/
+legacy_source/
+
+# Cache
+.cache/
+.eslintcache
+.prettierignore
+
+# Local development
+.vite/
+
+# Backup files
+*.backup
+*.orig
+
+# Duplicate numbered files
+*([0-9])
+*([0-9]).*
+
+# Google/Downloaded files patterns (like your m= files)
+m=*
+rs=*
+RotateCookiesPage.html
+
+# macOS
+.AppleDouble
+.AppleDB
+._*
+
+# Windows
+desktop.ini
